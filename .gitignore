@@ -1,0 +1,46 @@
+# ICPSR Raw Data Files (don't commit per ICPSR terms)
+data/raw/
+*.sav
+*.dta
+*.por
+ICPSR_*/
+
+# EXCEPTION: Keep processed/aggregated data
+!data/processed/
+!data/processed/*.csv
+
+# R files
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+
+# Credentials (IMPORTANT - never commit these!)
+.Rprofile
+credentials.R
+
+# Temporary files
+*.tmp
+~$*
+
+# Output files (optional - you may want to commit some of these)
+output/
+figures/
+*.png
+*.pdf
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Keep the data directory structure but ignore contents
+!data/.gitkeep
+!data/raw/.gitkeep
