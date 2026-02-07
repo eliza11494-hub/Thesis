@@ -21,12 +21,17 @@ This project uses three public ICPSR datasets and the ANES Time Series:
 source("FINAL2DATAWORKSHEET_UPDATED.R")
 ```
 
+##MAPPING SCRIPT BUILDS OFF FINAL2DATAWORKSHEET_UPDATED
+
+source("MAPPING_SCRIPT.R")
+
 This will:
-- ✅ Download pre-processed ICPSR data from GitHub
-- ✅ Download CountyDataGood.xlsx from GitHub
-- ✅ Download ANES Time Series data from electionstudies.org
-- ✅ Merge all data automatically
-- ✅ Generate visualizations and regression models
+- Download pre-processed ICPSR data from GitHub
+-  Download CountyDataGood.xlsx from GitHub
+- Download ANES Time Series data from electionstudies.org
+- Merge all data automatically
+- Generate visualizations and regression models
+- Map 2020 county data
 
 **No manual downloads. No login required. Just run and go!**
 
